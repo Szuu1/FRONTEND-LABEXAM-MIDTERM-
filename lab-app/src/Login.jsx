@@ -33,11 +33,11 @@ export default function Login() {
 
     return (
         <div>
-            <h1>Login</h1>
+            <h1>Drugs and Medicine Inventory System Login</h1>
 
             <form onSubmit={handleSubmit}>
                 <label>
-                    Username:
+                    Username: 
                     <input
                         type="text"
                         value={userName}
